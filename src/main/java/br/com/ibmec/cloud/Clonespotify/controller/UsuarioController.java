@@ -24,7 +24,7 @@ public class UsuarioController {
     private UsuarioRepository repository;
 
     @Autowired
-    private JwtUtil jwtUtil;
+    private JwtUtilController jwtUtil;
 
     @Autowired
     private PlaylistRepository playlistRepository;
