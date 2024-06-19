@@ -42,7 +42,7 @@ public class BandaController {
         Banda banda = new Banda();
         banda.setNome(request.getNome());
         banda.setDescricao(request.getDescricao());
-        banda.setImagemBase64(request.getImagemBase64());
+        banda.setImagem(request.getImagem());
 
 //        String imageUrl = this.accountService.uploadFileToAzure(request.getImagemBase64());
 //        banda.setImagemBase64(imageUrl);
@@ -148,7 +148,7 @@ public class BandaController {
 
         banda.setNome(request.getNome());
         banda.setDescricao(request.getDescricao());
-        banda.setImagemBase64(request.getImagemBase64());
+        banda.setImagem(request.getImagem());
 
         this.repository.save(banda);
 

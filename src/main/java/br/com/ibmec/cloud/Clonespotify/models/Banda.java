@@ -28,7 +28,7 @@ public class Banda {
     private String descricao;
 
     @Column
-    private String imagemBase64;;
+    private String imagem;;
 
     @OneToMany
     @JoinColumn(name = "banda_id", referencedColumnName = "id")

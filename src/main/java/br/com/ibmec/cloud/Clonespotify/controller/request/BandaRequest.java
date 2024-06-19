@@ -20,7 +20,7 @@ public class BandaRequest {
     @NotBlank(message = "Campo descrição e obrigatório")
     private String descricao;
 
-    private String imagemBase64;
+    private String imagem;
 
     private List<MusicasRequest> musicas;
 }
