@@ -13,7 +13,6 @@ public class CorsConfiguration {
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
         org.springframework.web.cors.CorsConfiguration config = new org.springframework.web.cors.CorsConfiguration();
         config.setAllowCredentials(true);
-        config.addAllowedOrigin("http://localhost:3000");
         config.addAllowedOrigin("https://ashy-ground-0576bb70f.5.azurestaticapps.net");
         config.addAllowedHeader("*");
         config.addAllowedMethod("*");
